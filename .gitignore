@@ -1,0 +1,9 @@
+#Custom
+target/
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# IntelliJ
+*.iml
+.idea/
