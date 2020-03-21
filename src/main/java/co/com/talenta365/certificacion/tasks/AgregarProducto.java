@@ -20,8 +20,7 @@ public class AgregarProducto implements Task {
         theActorInTheSpotlight().should(seeThat(VerificarLoguinCorrecto.conUsuario(theActorInTheSpotlight().recall("Usuario"))));
         actor.attemptsTo(Scroll.to(MapeosElementosPaginas.SELECCIONAR_PRODUCTO),
                 Click.on(MapeosElementosPaginas.PRODUCTO),
-                WaitUntil.the(MapeosElementosPaginas.NOMBRE_PRODUCTO, isVisible()),
-                Click.on(MapeosElementosPaginas.BTN_AGREGAR));
+                WaitUntil.the(MapeosElementosPaginas.NOMBRE_PRODUCTO, isVisible()));
 
         try{
             Thread.sleep(5000);
