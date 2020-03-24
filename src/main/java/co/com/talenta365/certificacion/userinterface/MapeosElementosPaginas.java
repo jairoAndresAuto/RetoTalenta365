@@ -16,6 +16,15 @@ public class MapeosElementosPaginas {
     public static Target BTN_AGREGAR=Target.the("agregar al carrito").located(By.xpath("//button[@name='save_to_cart']"));
     public static Target NOMBRE_PRODUCTO=Target.the("Nombre producto").located(By.xpath("(//h1[contains(text(),'HP')])[2]"));
     public static Target LBL_PRODUCTO_AGREGADO=Target.the("Etiqueta nombre producto agreado").located(By.xpath("(//h3[contains(text(),'HP CHROMEBOOK 14 G1(ES)')])[1]"));
+    public static Target BTN_USUARIO_LOGUEADO=Target.the("Menu usuario").located(By.xpath("//*[@id='menuUser']"));
+    public static Target BTN_OPCION_MI_CUENTA=Target.the("opcion mi cuenta").located(By.xpath("(//label[contains(text(),'My account')])[2]"));
+    public static Target LBL_MI_CUENTA=Target.the("opcion mi cuenta").located(By.xpath("//h3[contains(text(),'MY ACCOUNT')]"));
+    public static Target BTN_ELIMINAR=Target.the("btn eliminar cuenta").located(By.xpath("//button[@class='deleteMainBtnContainer a-button ng-scope']"));
+    public static Target CONTENEDOR_POPUP_ELIMINAR=Target.the("btn eliminar cuenta").located(By.id("deleteAccountPopup"));
+    public static Target CONTENEDOR_POPUP_YES=Target.the("btn eliminar cuenta").located(By.xpath("//div[@class='deletePopupBtn deleteRed']"));
+
+
+
 
 
 
